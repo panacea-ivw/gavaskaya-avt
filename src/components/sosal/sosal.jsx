@@ -48,7 +48,7 @@ function sosal() {
               Опытные преподаватели <br />с большим стажем
             </p>
             <div className="supblock-5"></div>
-          </div>
+          </div> 
 
           <div className="block-6">
             <p>
@@ -75,7 +75,7 @@ function sosal() {
       </div>
 
       <div className="studying-map">
-        <h2>КАРТА ОБУЧЕНИЕ</h2>
+        <h2>КАРТА ОБУЧЕНИЯ</h2>
       </div>
 
       <div className="special-blocks">
@@ -210,6 +210,20 @@ function sosal() {
   </defs>
 </svg>
             </div>
+      </div>
+
+      <div className="map-bg">
+        <div className="element-of-map">
+        <svg xmlns="http://www.w3.org/2000/svg" width="596" height="390" viewBox="0 0 596 390" fill="none">
+            <rect x="-1.95984" y="58.6116" width="566.761" height="335.805" rx="36.9785" transform="rotate(-6.21103 -1.95984 58.6116)" stroke="url(#paint0_linear_318_660)" stroke-width="1.99884"/>
+            <defs>
+            <linearGradient id="paint0_linear_318_660" x1="329.61" y1="85.1157" x2="540.058" y2="927.553" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4F4F4F"/>
+            <stop offset="1" stop-color="#7E7E7E"/>
+            </linearGradient>
+            </defs>
+        </svg>
+        </div>
       </div>
 
     </>

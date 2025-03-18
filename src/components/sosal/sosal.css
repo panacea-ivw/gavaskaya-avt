@@ -13,6 +13,7 @@
 
 .six-blocks {
     margin-top: -91px;
+    align-items: center;
 }
 /* блок 1 */
 
@@ -304,6 +305,13 @@
 .bold-why-we {
     font-weight: 600;
 }
+
+.map-bg {
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+
 
 /* ебучие билетики */
 
