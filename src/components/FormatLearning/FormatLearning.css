@@ -206,24 +206,29 @@
 }
  
 .block-dop {
-    margin-left: 60px;
- 
-    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 58);
     width: 294px;
     height: 55px;
- 
+    border-radius: 12px;
+    margin-left: 61px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
- 
-    display: flex;
-    align-items: center;
- 
-    margin-top: 1rem;
 }
- 
-.block-dop p {
+
+.block-dop p{
     background: transparent;
- 
+    background-color: rgb(58, 58, 58);
+    margin-left: 19px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 15px;
@@ -231,18 +236,14 @@
     letter-spacing: -0.05em;
     color: #fff;
 }
- 
+
 .block-dop span {
-    background: transparent;
- 
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 15px;
     line-height: 107%;
     letter-spacing: -0.05em;
     color: #fff;
-}
- 
-.block-dop svg {
+
     background: transparent;
 }
