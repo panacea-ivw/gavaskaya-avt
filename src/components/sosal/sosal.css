@@ -316,6 +316,7 @@
 .special-blocks {
   position: relative;
   display: flex;
+
 }
 
 .spec-block-1,
@@ -324,10 +325,10 @@
 .spec-block-4,
 .spec-block-5,
 .spec-block-6 {
-  width: 200px; /* Ширина каждого блока */
-  height: 100px; /* Высота каждого блока */
-  margin-left: -54px; /* Отрицательный отступ для перекрытия */
-  z-index: 1; /* Управление слоем */
+  width: 200px; 
+  height: 100px; 
+  margin-left: -54px; 
+  z-index: 1;
   background: transparent;
   fill: linear-gradient(168deg, #f0f0f0 0%, #7e7e7e 100%);
   box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.25);
@@ -335,8 +336,8 @@
 }
 
 .spec-block-1 {
-  margin-left: 61px; /* Убираем отступ у первого элемента */
-  z-index: 7; /* Самый верхний слой */
+  margin-left: 61px; 
+  z-index: 7; 
 }
 
 .spec-block-1 svg {
@@ -344,7 +345,7 @@
 }
 
 .spec-block-2 {
-  z-index: 6; /* Следующий по порядку */
+  z-index: 6; 
 }
 
 .spec-block-2 svg {
@@ -352,7 +353,7 @@
 }
 
 .spec-block-3 {
-  z-index: 5; /* Следующий по порядку */
+  z-index: 5;
 }
 
 .spec-block-3 svg {
@@ -361,7 +362,7 @@
 }
 
 .spec-block-4 {
-  z-index: 4; /* Следующий по порядку */
+  z-index: 4; 
 }
 
 .spec-block-4 svg {
@@ -370,7 +371,7 @@
 }
 
 .spec-block-5 {
-  z-index: 3; /* Следующий по порядку */
+  z-index: 3; 
 }
 
 .spec-block-5 svg {
@@ -379,7 +380,7 @@
 }
 
 .spec-block-6 {
-  z-index: 1; /* Самый нижний слой */
+  z-index: 1; 
 }
 
 .spec-block-6 svg {
