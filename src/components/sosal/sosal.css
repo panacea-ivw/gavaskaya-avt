@@ -638,7 +638,7 @@
 .spec-block-6 p {
     margin-left: 152px;
     margin-top: 3px;
-    width: 150px;
+    width: 155px;
 
     font-family: var(--font-family);
     font-style: italic;
@@ -649,3 +649,5 @@
     color: #212121;
     background: inherit;
 }
+
+/* эщкере */
