@@ -6,13 +6,16 @@ import subaru from '../../assets/img/bmw.jpg';
 import camry from '../../assets/img/camry.jpg';
 import honda from '../../assets/img/zaz.jpg';
 
+import nextButton from '../../assets/img/next-btn.svg'
+import prewButton from '../../assets/img/prew-btn.svg'
+
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const cars = [
     {
       title: 'Subaru Forester',
-      image: subaru, // Используем импортированное изображение
+      image: subaru,
       description: 'Полный привод, 2.5L двигатель'
     },
     {
@@ -27,7 +30,6 @@ const Carousel = () => {
     }
   ];
 
-  // Остальной код без изменений
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev === cars.length - 1 ? 0 : prev + 1));
   };
@@ -36,27 +38,48 @@ const Carousel = () => {
     setCurrentIndex((prev) => (prev === 0 ? cars.length - 1 : prev - 1));
   };
 
+  // Вычисляем индексы соседних слайдов
+  const prevIndex = (currentIndex - 1 + cars.length) % cars.length;
+  const nextIndex = (currentIndex + 1) % cars.length;
+
   return (
     <div className="carousel-container">
-      <h2 className="carousel-title">ARMMAPK</h2>
-      <h3 className="carousel-subtitle">Выбери машину, на которой хочешь учиться!</h3>
+      <h2 className="carousel-title">АВТОПАРК</h2>
       
       <div className="carousel-slide">
-        <button className="nav-button prev" onClick={prevSlide}>&lt;</button>
+        <button className="nav-button prev" onClick={prevSlide}>
+        <img src={prewButton} alt="" />
+        </button>
         
-        <div className="slide-content">
+        {/* Контейнер для миниатюр */}
+        <div className="thumbnails-container">
+          {/* Предыдущее изображение */}
           <img 
-            src={cars[currentIndex].image} // Используем импортированное изображение
-            alt={cars[currentIndex].title}
-            className="car-image"
+            src={cars[prevIndex].image}
+            className="thumbnail prev-thumbnail"
+            alt={`Preview ${cars[prevIndex].title}`}
+            onClick={() => setCurrentIndex(prevIndex)}
           />
-          <div className="car-info">
-            <h4>{cars[currentIndex].title}</h4>
-            <p>{cars[currentIndex].description}</p>
-          </div>
+          
+          {/* Основное изображение */}
+          <img 
+            src={cars[currentIndex].image}
+            className="car-image"
+            alt={cars[currentIndex].title}
+          />
+          
+          {/* Следующее изображение */}
+          <img 
+            src={cars[nextIndex].image}
+            className="thumbnail next-thumbnail"
+            alt={`Preview ${cars[nextIndex].title}`}
+            onClick={() => setCurrentIndex(nextIndex)}
+          />
         </div>
 
-        <button className="nav-button next" onClick={nextSlide}>&gt;</button>
+        <button className="nav-button next" onClick={nextSlide}>
+            <img src={nextButton} alt="" />
+        </button>
       </div>
 
       <div className="indicators">
