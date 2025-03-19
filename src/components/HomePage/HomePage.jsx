@@ -11,6 +11,7 @@ import Carousel from '../Carousel/Carousel'
 import Docs from '../Docs/Docs'
 import Footer from '../Footer/Footer'
 import ProgramLearning from '../ProgramLearning/ProgramLearning'
+import CardsUL from '../CardsUL/CardsUL'
 
 function HomePage(){
     return (
@@ -98,6 +99,7 @@ function HomePage(){
             <Carousel/>
             <Docs/>
             <ProgramLearning/>
+            <CardsUL/>
             <Footer/>
         </>
     )
