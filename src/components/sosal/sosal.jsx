@@ -488,7 +488,7 @@ function sosal() {
                 </linearGradient>
               </defs>
             </svg>
-            <span className="auto-gai-exam">Экзамен <br />в ГАИти</span>
+            <span className="auto-gai-exam">Экзамен <br />в ГАИ</span>
             <p>После того как вы оставите <br /> заявку или позвоните нам - <br /> мы назначим вам личную <br /> встречу</p>
             <div className="green-5">
               <span>#05</span>
