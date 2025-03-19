@@ -55,12 +55,13 @@ function FormatLearning(){
                 <div className="zzz">
                     <h1>ДОПОЛНИТЕЛЬНЫЕ <br/> УСЛУГИ</h1>
                 </div>
+                <div className="blocks-dop-ysl">
                 <div className="block-dop">
                             <p>
                               <span>Психологическая<br/> поддержка</span> обучающихся
                             </p>
                 
-                            <div className="supblock-1">
+                            <div className="supblocks">
                               
                             </div>
                 </div>
@@ -69,18 +70,19 @@ function FormatLearning(){
                               <span>Профессиональный<br/> онлайн</span> педагог
                             </p>
                 
-                            <div className="supblock-1">
+                            <div className="supblocks">
                               
                             </div>
                 </div>
                 <div className="block-dop">
                             <p>
-                              <span>Психологическая<br/> поддержка</span> обучающихся
+                              <span>Восстановление<br/></span> Навыков вождения
                             </p>
                 
-                            <div className="supblock-1">
+                            <div className="supblocks">
                               
                             </div>
+                </div>
                 </div>
             </div>
             
