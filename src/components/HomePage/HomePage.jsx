@@ -9,6 +9,7 @@ import Metro from '../../assets/img/metro.svg'
 import FormatLearning from '../FormatLearning/FormatLearning'
 import Carousel from '../Carousel/Carousel'
 import Docs from '../Docs/Docs'
+import Footer from '../Footer/Footer'
 
 function HomePage(){
     return (
@@ -95,6 +96,7 @@ function HomePage(){
             <FormatLearning/>
             <Carousel/>
             <Docs/>
+            <Footer/>
         </>
     )
 }
