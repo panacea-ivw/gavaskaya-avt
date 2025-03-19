@@ -7,6 +7,7 @@ import logoGrafic from "../../assets/img/grafic.svg"
 import Navigation from '../Navigation/Navigation';
 import Metro from '../../assets/img/metro.svg'
 import FormatLearning from '../FormatLearning/FormatLearning'
+import Carousel from '../Carousel/Carousel'
 
 function HomePage(){
     return (
@@ -91,6 +92,7 @@ function HomePage(){
                 </div>
             </div>
             <FormatLearning/>
+            <Carousel/>
         </>
     )
 }
