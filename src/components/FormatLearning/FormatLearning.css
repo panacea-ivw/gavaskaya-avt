@@ -6,7 +6,10 @@
  
 .format {
     width: 100vw;
+<<<<<<< HEAD
     height: 100vh;
+=======
+>>>>>>> fd7d88b30384b4bdb07c61593c5a359cb8fee2fd
     background: url("../../assets/img/bg-mama.png");;
     background-position: center -2px;
     background-size: cover;
@@ -189,7 +192,11 @@
     font-size: 108px;
     line-height: 101%;
     letter-spacing: -0.04em;
+<<<<<<< HEAD
     background: linear-gradient(358deg, #fff 0%, rgba(153, 153, 153, 0.17) 100%);
+=======
+    background: linear-gradient(358deg, #2a2a2a 0%, rgba(220, 220, 220, 0.17) 100%);
+>>>>>>> fd7d88b30384b4bdb07c61593c5a359cb8fee2fd
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -206,6 +213,7 @@
 }
  
 .block-dop {
+<<<<<<< HEAD
     margin-left: 60px;
  
     border-radius: 12px;
@@ -224,6 +232,31 @@
 .block-dop p {
     background: transparent;
  
+=======
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 58);
+    width: 294px;
+    height: 55px;
+    border-radius: 12px;
+
+    justify-content: center;
+    margin-top: 1rem;
+
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+    background: #3a3a3a;
+    margin-right: 19px;
+}
+
+.block-dop p{
+    background: transparent;
+    background-color: rgb(58, 58, 58);
+    margin-left: 70px;
+>>>>>>> fd7d88b30384b4bdb07c61593c5a359cb8fee2fd
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 15px;
@@ -231,18 +264,52 @@
     letter-spacing: -0.05em;
     color: #fff;
 }
+<<<<<<< HEAD
  
 .block-dop span {
     background: transparent;
  
+=======
+
+.block-dop span {
+>>>>>>> fd7d88b30384b4bdb07c61593c5a359cb8fee2fd
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 15px;
     line-height: 107%;
     letter-spacing: -0.05em;
     color: #fff;
+<<<<<<< HEAD
 }
  
 .block-dop svg {
     background: transparent;
 }
+=======
+
+    background: transparent;
+}
+
+.blocks-dop-ysl {
+    margin-left: 61px;
+    background: transparent;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 630px;
+}
+
+
+.supblocks {
+    display: flex;
+    width: 59px;
+    height: 55px;
+    justify-content: center;
+
+    box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
+    background: rgba(108, 108, 108, 0.42);
+    position: absolute;
+    border-radius: 12px;
+}
+>>>>>>> fd7d88b30384b4bdb07c61593c5a359cb8fee2fd
