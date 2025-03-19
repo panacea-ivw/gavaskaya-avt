@@ -316,6 +316,7 @@
 .special-blocks {
   position: relative;
   display: flex;
+  margin-left: 61px;
 
 }
 
@@ -327,7 +328,6 @@
 .spec-block-6 {
   width: 200px; 
   height: 100px; 
-  margin-left: -54px; 
   z-index: 1;
   background: transparent;
   fill: linear-gradient(168deg, #f0f0f0 0%, #7e7e7e 100%);
@@ -336,7 +336,6 @@
 }
 
 .spec-block-1 {
-  margin-left: 61px; 
   z-index: 7; 
 }
 
@@ -346,6 +345,7 @@
 
 .spec-block-2 {
   z-index: 6; 
+  margin-left: -74px;
 }
 
 .spec-block-2 svg {
@@ -354,11 +354,11 @@
 
 .spec-block-3 {
   z-index: 5;
+  margin-left: -50px;
 }
 
 .spec-block-3 svg {
   background: transparent;
-  margin-left: 54px;
 }
 
 .spec-block-4 {
@@ -367,7 +367,6 @@
 
 .spec-block-4 svg {
   background: transparent;
-  margin-left: 108px;
 }
 
 .spec-block-5 {
@@ -376,7 +375,6 @@
 
 .spec-block-5 svg {
   background: transparent;
-  margin-left: 162px;
 }
 
 .spec-block-6 {
@@ -386,7 +384,6 @@
 .spec-block-6 svg {
   background: transparent;
   margin-top: 10px;
-  margin-left: 216px;
 }
 
 .studying-map {
@@ -402,23 +399,66 @@
 
 /* зеленые хуйнюшки на белых хуйнюшках */
 
-.green-1 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-}
-
+.green-1 span,
+.green-2 span,
+.green-3 span,
+.green-4 span,
+.green-5 span,
+.green-6 span,
 .green-1 span {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #096a00;
-    background-color: rgb(0, 224, 0);
+  font-family: var(--second-family);  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107%;
+  letter-spacing: -0.05em;
+  color: #096a00;
+  background-color: rgb(0, 224, 0);
 }
 
+.green-1,
+.green-2,
+.green-3,
+.green-4,
+.green-5,
+.green-6,
+.green-1 {
+  display: flex;
+  border-radius: 100px;
+  width: 59px;
+  height: 25px;
+  background-color: rgb(0, 224, 0);
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+}
+
+.green-1 {
+  top: 133px;
+  left: 32px;
+}
+
+.green-2 {
+  top: 133px;
+  left: 232px;
+}
+
+.green-3 {
+  top: 133px;
+  left: 432px;
+}
+
+.green-4 {
+  top: 133px;
+  left: 625px;
+}
+
+.green-5 {
+  top: 133px;
+  left: 815px;
+}
+
+.green-6 {
+  top: 133px;
+  left: 1025px;
+}
