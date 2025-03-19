@@ -5,8 +5,8 @@ footer {
     margin: 30px;
     padding: 20px;
 
-    border-top: white 1px solid;
-    border-bottom: white 1px solid;
+    border-top: rgb(169, 169, 169) 1px solid;
+    border-bottom: rgb(156, 156, 156) 1px solid;
 }
 
 .social-nw a {

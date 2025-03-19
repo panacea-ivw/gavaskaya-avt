@@ -10,6 +10,7 @@ import FormatLearning from '../FormatLearning/FormatLearning'
 import Carousel from '../Carousel/Carousel'
 import Docs from '../Docs/Docs'
 import Footer from '../Footer/Footer'
+import ProgramLearning from '../ProgramLearning/ProgramLearning'
 
 function HomePage(){
     return (
@@ -96,6 +97,7 @@ function HomePage(){
             <FormatLearning/>
             <Carousel/>
             <Docs/>
+            <ProgramLearning/>
             <Footer/>
         </>
     )
