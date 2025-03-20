@@ -7,8 +7,8 @@
 .format {
     width: 100vw;
     background: url("../../assets/img/bg-mama.png");;
-    background-position: center -2px;
-    background-size: cover;
+    background-position: right;
+    background-size: contain;
     background-repeat: no-repeat;
 }
  
@@ -132,6 +132,16 @@
  
     border: none;
 }
+
+.offline-learn button:hover {
+    scale: 1.05;
+    transition: all 1s;
+}
+.online-learn button:hover {
+    scale: 1.05;
+    transition: all 1s;
+}
+ 
  
 .online-learn svg {
     background: transparent;
@@ -208,9 +218,9 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
-    width: 294px;
-    height: 55px;
-    border-radius: 12px;
+    border-radius: 15px;
+    width: 378px;
+    height: 71px;
 
     justify-content: center;
     margin-top: 1rem;
@@ -227,10 +237,10 @@
 .block-dop p{
     background: transparent;
     background-color: rgb(58, 58, 58);
-    margin-left: 70px;
+    margin-left: 90px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 107%;
     letter-spacing: -0.05em;
     color: #fff;
@@ -239,7 +249,7 @@
 .block-dop span {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 107%;
     letter-spacing: -0.05em;
     color: #fff;
@@ -254,18 +264,19 @@
     display: flex;
     flex-wrap: wrap;
 
-    width: 630px;
+    padding-bottom: 4rem;
 }
 
 
 .supblocks {
     display: flex;
-    width: 59px;
-    height: 55px;
+    border-radius: 15px;
+    width: 76px;
+    height: 71px;
     justify-content: center;
 
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
-    border-radius: 12px;
+
 }
