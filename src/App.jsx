@@ -5,6 +5,7 @@ import './App.css';
 import Sosal from './components/sosal/sosal'
 import FormatLearning from './components/FormatLearning/FormatLearning';
 import OurTeachers from './components/OurTeachers/ourteachers';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Sosal" element={<Sosal />} />
           <Route path='/OurTeachers' element={<OurTeachers />}/>
+          <Route path='/FAQ' element={<FAQ />}/>
         </Routes>
       </div>
     </Router>
