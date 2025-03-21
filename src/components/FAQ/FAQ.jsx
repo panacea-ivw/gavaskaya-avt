@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './FAQ.css'
+import OpenList from '../../assets/img/open-list.png';
 
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const FAQItem = ({ question, answer }) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>{question}</span>
-        <span className="faq-arrow">&#9660;</span> {/* Символ стрелки */}
+        <img src={OpenList} alt="" className="faq-arrow" />
       </div>
       {isOpen && <div className="faq-answer"><span>{answer}</span></div>}
     </div>
@@ -72,12 +73,12 @@ const FAQSection = () => {
 
   return (
     <div className="faq-header">
-        <div className="questions">
-      {faqData.map((item, index) => (
-        <FAQItem key={index} question={item.question} answer={item.answer} />
-      ))}
-        </div>
       <h2>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+      <div className="questions">
+        {faqData.map((item, index) => (
+          <FAQItem key={index} question={item.question} answer={item.answer} />
+        ))}
+      </div>
     </div>
   );
 };
