@@ -15,6 +15,7 @@ import Footer from '../Footer/Footer'
 import ProgramLearning from '../ProgramLearning/ProgramLearning'
 import CardsUL from '../CardsUL/CardsUL'
 import Dogovor from '../dogovor/dogovor'
+import Naves from '../Naves/Naves';
 
 function HomePage() {
   const [formData, setFormData] = useState({
@@ -54,6 +55,7 @@ function HomePage() {
   return (
     <>
       <Navigation/>
+      
       <div className="main-page">
         <div className="logo-main">
           <img src={logoBig} alt="Большой логотип" />
@@ -140,13 +142,16 @@ function HomePage() {
           </div>
         </div>
       </div>
+      
       <FormatLearning/>
       <Carousel/>
       <Docs/>
       <ProgramLearning/>
       <CardsUL/>
       <Dogovor/>
+      <Naves/>
       <Footer/>
+      
     </>
   )
 }
