@@ -6,9 +6,9 @@ import AKPP from "../../assets/img/akpp-img.png"
 function ProgramLearning(){
     return (
         <>
-            <div className="ProgramLearning">
+            <div className="ProgramLearning" id='learning'>
                 <div className="title-pl">
-                    <h1>программы обучения</h1>
+                    <h1>практические <br />программы обучения</h1>
                 </div>
                 <div className="cards-pl">
                 <div className="card" id='akpp'>

@@ -6,7 +6,7 @@ import LogoImg from '../../assets/img/footer-logo.svg'
 function Footer(){
     return (
         <>
-            <footer>
+            <footer id='footer'>
                 <div className="logo">
                     <img src={LogoImg} alt="Логотип" />
                 </div>
@@ -48,7 +48,7 @@ function Footer(){
                     <a target='_blank' href="">Международное сотрудничество</a>
                     <a target='_blank' href="">Акт самообследования</a>
                     <a target='_blank' href="https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fe96PCbs%2F0wWCNOEBWwRHAuvIICmRcqjQTS7gOhVLtOwpNCL2aYtTji3PQGTGeU%2Fcq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D0%B5%D0%BA%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D1%8B.pdf&name=%D0%A0%D0%B5%D0%BA%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D1%8B.pdf&nosw=1">Реквизиты</a>
-                    <a target='_blank' href="">Документы</a>
+                    <a href="#docs">Документы</a>
                     
                 </div>
             </div>
